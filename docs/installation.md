@@ -13,7 +13,7 @@ easy four-step process.
 Download extension using [composer](https://getcomposer.org):
 
 ```bash
-$ composer require dektrium/yii2-rbac:1.0.0-alpha@dev
+$ composer require aminbbb92/yii2-rbac:1.0.0-alpha@dev
 ```
 
 ## Step 2: Configure your web application
@@ -24,7 +24,7 @@ Add rbac module to web application config file as follows:
 ...
 'modules' => [
     ...
-    'rbac' => 'dektrium\rbac\RbacWebModule',
+    'rbac' => 'aminbbb92\rbac\RbacWebModule',
     ...
 ],
 ...
@@ -38,7 +38,7 @@ Add rbac module to console application config file as follows:
 ...
 'modules' => [
     ...
-    'rbac' => 'dektrium\rbac\RbacConsoleModule',
+    'rbac' => 'aminbbb92\rbac\RbacConsoleModule',
     ...
 ],
 ...

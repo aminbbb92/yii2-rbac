@@ -1,18 +1,18 @@
 {
-  "name": "dektrium/yii2-rbac",
+  "name": "aminbbb92/yii2-rbac",
   "description": "RBAC management module for Yii2",
-  "keywords": ["yii2", "yii2-rbac", "rbac management", "dektrium", "rbac gui", "yii rbac", "rbac module"],
+  "keywords": ["yii2", "yii2-rbac", "rbac management", "aminbbb92", "rbac gui", "yii rbac", "rbac module"],
   "type": "yii2-extension",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/dektrium/yii2-rbac/issues?state=open",
-    "source": "https://github.com/dektrium/yii2-rbac"
+    "issues": "https://github.com/aminbbb92/yii2-rbac/issues?state=open",
+    "source": "https://github.com/aminbbb92/yii2-rbac"
   },
   "authors": [
     {
-      "name": "Dmitry Erofeev",
-      "email": "dmeroff@gmail.com",
-      "homepage": "http://dmeroff.ru"
+      "name": "Amin Shafiee",
+      "email": "amin.shafiee.d@gmail.com",
+      "homepage": "http://runwidget.com"
     }
   ],
   "minimum-stability": "dev",
@@ -22,11 +22,11 @@
   },
   "autoload": {
     "psr-4": {
-      "dektrium\\rbac\\": ""
+      "aminbbb92\\rbac\\": ""
     }
   },
   "extra": {
-    "bootstrap": "dektrium\\rbac\\Bootstrap",
+    "bootstrap": "aminbbb92\\rbac\\Bootstrap",
     "branch-alias": {
       "dev-master": "1.0.x-dev"
     }

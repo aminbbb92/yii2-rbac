@@ -6,7 +6,7 @@ need to following the instructions for both A and B.
 
 ## Upgrade from Yii2-rbac 0.3.* to Yii2-rbac 1.0.0
 
-- Module's class has been renamed from `dektrium\rbac\Module` to `dektrium\rbac\RbacWebModule`. You have to update your
+- Module's class has been renamed from `aminbbb92\rbac\Module` to `aminbbb92\rbac\RbacWebModule`. You have to update your
  config files accordingly. 
 
 - Module's option `enableFlashMessages` has been removed. If you've used it you should remove it from your config. This

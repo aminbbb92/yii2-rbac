@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the Dektrium project.
+ * This file is part of the Amin project.
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) Amin project <http://github.com/aminbbb92>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
@@ -12,7 +12,7 @@
 /**
  * @var $dataProvider array
  * @var $this         yii\web\View
- * @var $filterModel  dektrium\rbac\models\Search
+ * @var $filterModel  aminbbb92\rbac\models\Search
  */
 
 use kartik\select2\Select2;
@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 
-<?php $this->beginContent('@dektrium/rbac/views/layout.php') ?>
+<?php $this->beginContent('@aminbbb92/rbac/views/layout.php') ?>
 
 <?php Pjax::begin() ?>
 

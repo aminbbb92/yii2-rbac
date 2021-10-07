@@ -1,15 +1,15 @@
 <?php
 
 /*
- * This file is part of the Dektrium project.
+ * This file is part of the Amin project.
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) Amin project <http://github.com/aminbbb92>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\widgets;
+namespace aminbbb92\rbac\widgets;
 
 use yii\bootstrap\Nav;
 
@@ -34,7 +34,7 @@ class Menu extends Nav
     {
         parent::init();
 
-        $userModuleClass       = 'dektrium\user\Module';
+        $userModuleClass       = 'aminbbb92\user\Module';
         $isUserModuleInstalled = \Yii::$app->getModule('user') instanceof $userModuleClass;
 
         $this->items = [

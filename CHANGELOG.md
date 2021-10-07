@@ -4,7 +4,7 @@
 
 - Enh: Invalidate cache after saving auth items/rules (dmeroff)
 - New #77: Added migrate console command (dmeroff)
-- New: Module's class has been renamed from `dektrium\rbac\Module` to `dektrium\rbac\RbacWebModule` (dmeroff)
+- New: Module's class has been renamed from `aminbbb92\rbac\Module` to `aminbbb92\rbac\RbacWebModule` (dmeroff)
 - Enh #9: Added ability to manage rules (dmeroff)
 - Enh: Updated grid views (dmeroff)
 - Enh: Added check if rule has name property set (dmeroff)

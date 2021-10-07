@@ -1,15 +1,15 @@
 <?php
 
-/* 
- * This file is part of the Dektrium project
- * 
- * (c) Dektrium project <http://github.com/dektrium>
- * 
+/*
+ * This file is part of the Amin project
+ *
+ * (c) Amin project <http://github.com/aminbbb92>
+ *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-use dektrium\rbac\models\Assignment;
+use aminbbb92\rbac\models\Assignment;
 use kartik\select2\Select2;
 use yii\bootstrap\Alert;
 use yii\helpers\Html;

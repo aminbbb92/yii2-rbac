@@ -1,17 +1,17 @@
 <?php
 
 /*
- * This file is part of the Dektrium project.
+ * This file is part of the Amin project.
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) Amin project <http://github.com/aminbbb92>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\models;
+namespace aminbbb92\rbac\models;
 
-use dektrium\rbac\components\DbManager;
+use aminbbb92\rbac\components\DbManager;
 use yii\base\InvalidConfigException;
 use yii\base\Model;
 use yii\di\Instance;
@@ -115,7 +115,7 @@ class Rule extends Model
 
     /**
      * Creates new auth rule.
-     * 
+     *
      * @return bool
      * @throws InvalidConfigException
      */
@@ -133,16 +133,16 @@ class Rule extends Model
             'class' => $this->class,
             'name'  => $this->name,
         ]);
-        
+
         $this->authManager->add($rule);
         $this->authManager->invalidateCache();
-        
+
         return true;
     }
 
     /**
      * Updates existing auth rule.
-     * 
+     *
      * @return bool
      * @throws InvalidConfigException
      */
@@ -160,10 +160,10 @@ class Rule extends Model
             'class' => $this->class,
             'name'  => $this->name,
         ]);
-        
+
         $this->authManager->update($this->_oldName, $rule);
         $this->authManager->invalidateCache();
-        
+
         return true;
     }
 }

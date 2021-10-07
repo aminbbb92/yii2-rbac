@@ -1,15 +1,15 @@
 <?php
 
 /*
- * This file is part of the Dektrium project.
+ * This file is part of the Amin project.
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) Amin project <http://github.com/aminbbb92>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\controllers;
+namespace aminbbb92\rbac\controllers;
 
 use yii\rbac\Permission;
 use yii\web\NotFoundHttpException;
@@ -21,8 +21,8 @@ use yii\rbac\Item;
 class PermissionController extends ItemControllerAbstract
 {
     /** @var string */
-    protected $modelClass = 'dektrium\rbac\models\Permission';
-    
+    protected $modelClass = 'aminbbb92\rbac\models\Permission';
+
     /** @var int */
     protected $type = Item::TYPE_PERMISSION;
 

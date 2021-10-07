@@ -1,15 +1,15 @@
 <?php
 
 /*
- * This file is part of the Dektrium project.
+ * This file is part of the Amin project.
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) Amin project <http://github.com/aminbbb92>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac;
+namespace aminbbb92\rbac;
 
 use yii\base\Module as BaseModule;
 use yii\filters\AccessControl;
@@ -23,17 +23,17 @@ class RbacWebModule extends BaseModule
      * @var string
      */
     public $defaultRoute = 'role/index';
-    
+
     /**
      * @var array
      */
     public $admins = [];
-	
+
 	/**
      * @var string The Administrator permission name.
      */
     public $adminPermission;
-    
+
     /** @inheritdoc */
     public function behaviors()
     {

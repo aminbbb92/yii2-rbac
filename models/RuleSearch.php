@@ -1,15 +1,15 @@
 <?php
 
 /*
- * This file is part of the Dektrium project.
+ * This file is part of the Amin project.
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) Amin project <http://github.com/aminbbb92>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\models;
+namespace aminbbb92\rbac\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
@@ -86,7 +86,7 @@ class RuleSearch extends Rule
             ->from($this->authManager->ruleTable)
             ->orderBy(['name' => SORT_ASC])
             ->limit(10);
-        
+
         if ($searchQuery) {
             $query->where(['LIKE', 'LOWER(name)', mb_strtolower($searchQuery)]);
         }

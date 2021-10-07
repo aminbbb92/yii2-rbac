@@ -1,22 +1,22 @@
 <?php
 
 /*
- * This file is part of the Dektrium project.
+ * This file is part of the Amin project.
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) Amin project <http://github.com/aminbbb92>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\models;
+namespace aminbbb92\rbac\models;
 
 use yii\base\InvalidConfigException;
 use yii\base\InvalidParamException;
 use yii\base\Model;
 use yii\helpers\Json;
 use yii\rbac\Item;
-use dektrium\rbac\validators\RbacValidator;
+use aminbbb92\rbac\validators\RbacValidator;
 
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com>
@@ -59,7 +59,7 @@ abstract class AuthItem extends Model
     public $item;
 
     /**
-     * @var \dektrium\rbac\components\DbManager
+     * @var \aminbbb92\rbac\components\DbManager
      */
     protected $manager;
 
@@ -169,7 +169,7 @@ abstract class AuthItem extends Model
         $this->item->description = $this->description;
         $this->item->data        = $this->data == null ? null : Json::decode($this->data);
         $this->item->ruleName    = empty($this->rule) ? null : $this->rule;
-  
+
         if ($isNewItem) {
             \Yii::$app->session->setFlash('success', \Yii::t('rbac', 'Item has been created'));
             $this->manager->add($this->item);
