@@ -11,7 +11,7 @@
 
 namespace aminbbb92\rbac\widgets;
 
-use yii\bootstrap\Nav;
+use yii\bootstrap5\Nav;
 
 /**
  * Menu widget.
